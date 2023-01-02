@@ -1,0 +1,24 @@
+﻿What are the main components of a typical CI workflow?
+Ans -
+1. Create and work in a feature branch
+2. Push branch to origin
+3. Wait for tests to pass in CI
+4. Deploy to staging, ideally with one click, if manual testing is necessary
+5. Open a pull request, discuss any significant changes with other team Members
+6. Merge the feature branch to master, letting CI to deploy to production
+
+
+
+
+What is a Jenkinsfiles ? 
+Ans - A Jenkinsfile is a text file that contains the definition of a Jenkins Pipeline and is checked into source control. Consider the following Pipeline which implements a basic three-stage continuous delivery pipeline.
+What is meant by Pipeline as Code and Infrastructure as Code?
+Ans - Pipeline as code is a practice of defining deployment pipelines through source code, such as Git. Pipeline as code is part of a larger “as code” movement that includes infrastructure as code.
+What are the benefits of using pipelines over normal build jobs in Jenkins?
+Ans - A pipeline is a collection of jobs that brings the software from version control into the hands of the end users by using automation tools.
+ It models simple to complex pipelines as code by using Groovy DSL (Domain Specific Language)
+It is durable in terms of unplanned restart of the Jenkins master
+It can restart from saved checkpoints
+It can integrate with several other plugins.
+What are the differences between a declarative pipeline and a scripted pipeline?
+Ans - Basically, declarative and scripted pipelines differ in terms of the programmatic approach. One uses a declarative programming model and the second uses an imperative programming mode.
