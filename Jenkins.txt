@@ -1,0 +1,44 @@
+﻿Jenkins
+
+
+1. Describe in your own words what is Jenkins and what it is used for.
+ Ans - jenkins is an open source continuous integration/continuous delivery and deployment (CI/CD) automation software DevOps tool written in the Java programming language. It is used to implement CI/CD workflows, called pipelines.
+
+
+2. 
+
+
+3. What is the difference between job and project in Jenkins?
+
+
+Jenkins Job - A Jenkins job is a sequential set of tasks that a user defines. For example, a job can fetch source code from version control, compile the code, run unit tests, and more. Note that in Jenkins, the term “job” is synonymous with “project”.
+
+
+Jenkins Project - A Jenkins project involves steps and post-build actions and is a repeatable build job. There are limitations in the types of actions you can perform in a build step or post-build action. Within a Jenkins freestyle project, there are several standard plugins available to help you overcome this problem.
+
+
+4. what is a workspace in jenkins
+
+
+Workspace is the directory that is used to create the build. One can choose which files to store as build artifacts in the job configuration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. What is the difference between Continuous Integration, Continuous Delivery, and Continuous Deployment? 
+   
+  
+
+What are the main components of a typical CI workflow?
